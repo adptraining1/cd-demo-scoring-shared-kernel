@@ -14,4 +14,8 @@ node {
    stage 'Build'
    // Run the maven build
    sh "${mvnHome}/bin/mvn -Dmaven.test.failure.ignore clean package"
+   
+   stage 'Sonar'
+   sh "${mvnHome}/bin/mvn sonar:sonar"
+
 }
