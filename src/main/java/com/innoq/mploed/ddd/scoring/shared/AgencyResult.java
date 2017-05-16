@@ -4,6 +4,9 @@ import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Result from the scoring agency
+ */
 public class AgencyResult implements Serializable {
     private Set<String> warnings = new HashSet<String>();
     private AgencyColor color;
