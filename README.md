@@ -4,4 +4,4 @@ Shared Kernel for the binary Hessian Interface between Scoring and Credit-Applic
 
 
 # Why?
-Because I want to demo a shared kernel based on JAR files....
+Because I want to demo a shared kernel based on JAR files.
